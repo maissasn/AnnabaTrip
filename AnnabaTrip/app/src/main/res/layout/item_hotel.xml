@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_marginBottom="8dp">
+
+    <ImageView
+        android:id="@+id/hotelImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/hotelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotel Name"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/hotelDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotel Description"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/openMapButton"
+        android:backgroundTint="#3E9AC5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ouvrire dans Google Maps" />
+</LinearLayout>

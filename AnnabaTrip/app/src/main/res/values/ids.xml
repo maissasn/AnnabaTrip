@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="hotelName" type="id" />
+    <item name="hotelDescription" type="id" />
+    <item name="openMapButton" type="id" />
+    <item name="action_search" type="id" />
+    <item name="imageView" type="id" />
+    <item name="nameTextView" type="id" />
+    <item name="restaurantName" type="id" />
+    <item name="restaurantDescription" type="id" />
+    <item name="restaurantImage" type="id" />
+    <item name="plageName" type="id" />
+    <item name="plageImage" type="id" />
+    <item name="plageDescription" type="id" />
+    <item name="lieuTouristiqueImage" type="id" />
+    <item name="lieuTouristiqueName" type="id" />
+    <item name="lieuTouristiqueDescription" type="id" />
+</resources>
